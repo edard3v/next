@@ -17,7 +17,7 @@ export default function Path({ className, children, href, ...rest }: Props) {
       {...rest}
       href={href}
       className={cls([
-        "hover:text-blue-400",
+        "hover:animate-pulse",
         isActive && "underline underline-offset-4",
         className,
       ])}
